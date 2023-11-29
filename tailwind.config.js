@@ -71,6 +71,7 @@ module.exports = {
         'hm-sans': ['HM Sans Regular', 'sans-serif'],
       },
       backgroundImage: {
+        'contact-hero': "url('./assets/hero-img/contact-us-hero.webp')",
         'stamp-05': "url('./assets/img/stamp-05.webp')",
         'perks-1': "url('./assets/perks-img/perks-1.webp')",
         'hero-img': "url('./assets/img/hero-img2.webp')",
