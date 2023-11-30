@@ -329,7 +329,7 @@ list.innerHTML = output;
 
 function showData(alumniData) {
     let listItems = `
-            <li class="border flex flex-col mt-10 items-center relative border-gray-300 py-4 rounded-md hover:shadow-md h-52">
+            <li class="border flex flex-col mt-10 items-center relative border-gray-300 py-4 rounded-md hover:shadow-md hover:border-brand-red h-52">
               <img class="mx-auto absolute -top-[25%]  h-24 w-24 rounded-full border border-gray-300 shadow-md" src=${alumniData.aImg} alt="">
               <h3 class="mt-6 py-3 text-lg font-boldtracking-tight text-brand-red">${alumniData.aName}</h3>
               <p class="text-sm leading-6 font-bold">${alumniData.aCompany}</p>
