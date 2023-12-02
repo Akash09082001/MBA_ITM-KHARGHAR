@@ -72,8 +72,10 @@ module.exports = {
       },
       backgroundImage: {
         'contact-hero': "url('./assets/hero-img/contact-us-hero.webp')",
+        'alumni-hero': "url('./assets/hero-img/alumni-hero.webp')",
+        'faculty-hero': "url('./assets/hero-img/faculty-hero.webp')",
+        'scholership-hero': "url('./assets/hero-img/scholership-hero.webp')",
         'stamp-05': "url('./assets/img/stamp-05.webp')",
-        'perks-1': "url('./assets/perks-img/perks-1.webp')",
         'hero-img': "url('./assets/img/hero-img2.webp')",
         'hero-img1': "url('./assets/banner/marketing-management-banner.webp')",
         'grid-img': "url('./assets/img/grid-img.webp')",

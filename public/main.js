@@ -14,29 +14,6 @@ function closeMenu() {
     closeButton.style.display = "none";
 }
 
-
-// Function to check if the user has scrolled past the hero section
-// function checkScrollPastHeroSection() {
-//     const heroSection = document.querySelector('.hero-section');
-//     const backToTopButton = document.querySelector('.back-to-top');
-//     const enquireButtons = document.querySelectorAll('.enquire-btn');
-        
-//     enquireButtons.style.display = 'none';
-    
-//     if (heroSection) {
-//         const scrollTop = window.scrollY;
-
-//         for (const enquireButton of enquireButtons) {
-//             enquireButton.style.display = scrollTop > 1000 ? 'flex' : 'none';
-//         }
-
-//         backToTopButton.style.display = scrollTop > 1000 ? 'flex' : 'none';
-//     }
-// }
-
-// Event listener for scroll
-// window.addEventListener('scroll', checkScrollPastHeroSection);
-
 // Event listener for "back-to-top" button click
 document.querySelector('.back-to-top').addEventListener('click', function (event) {
     event.preventDefault();
@@ -92,6 +69,7 @@ function closeModal() {
     const modal = document.getElementById('modal');
     modal.style.display = 'none';
 }
+
 function openModal1() {
     const modal1 = document.getElementById('modal1');
     modal1.style.display = 'flex';
