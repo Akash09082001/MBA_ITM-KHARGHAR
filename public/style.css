@@ -760,6 +760,10 @@ video {
   margin-top: 2.5rem;
 }
 
+.mt-14{
+  margin-top: 3.5rem;
+}
+
 .mt-16{
   margin-top: 4rem;
 }
@@ -835,6 +839,10 @@ video {
   aspect-ratio: 16 / 9;
 }
 
+.h-0{
+  height: 0px;
+}
+
 .h-10{
   height: 2.5rem;
 }
@@ -907,6 +915,10 @@ video {
   height: 550px;
 }
 
+.h-\[730px\]{
+  height: 730px;
+}
+
 .h-auto{
   height: auto;
 }
@@ -940,12 +952,16 @@ video {
   max-height: 600px;
 }
 
-.max-h-\[700px\]{
-  max-height: 700px;
+.max-h-\[830px\]{
+  max-height: 830px;
 }
 
 .max-h-screen{
   max-height: 100vh;
+}
+
+.max-h-\[720px\]{
+  max-height: 720px;
 }
 
 .w-0{
@@ -1474,6 +1490,11 @@ video {
   border-color: rgb(209 213 219 / var(--tw-border-opacity));
 }
 
+.border-red-500{
+  --tw-border-opacity: 1;
+  border-color: rgb(239 68 68 / var(--tw-border-opacity));
+}
+
 .border-transparent{
   border-color: transparent;
 }
@@ -1496,6 +1517,11 @@ video {
 .bg-gray-100{
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+}
+
+.bg-gray-400{
+  --tw-bg-opacity: 1;
+  background-color: rgb(156 163 175 / var(--tw-bg-opacity));
 }
 
 .bg-gray-50{
@@ -1662,6 +1688,10 @@ video {
      object-position: right;
 }
 
+.p-0{
+  padding: 0px;
+}
+
 .p-1{
   padding: 0.25rem;
 }
@@ -1804,8 +1834,16 @@ video {
   padding-top: 2.5rem;
 }
 
+.pt-14{
+  padding-top: 3.5rem;
+}
+
 .pt-16{
   padding-top: 4rem;
+}
+
+.pt-20{
+  padding-top: 5rem;
 }
 
 .pt-8{
@@ -2552,10 +2590,6 @@ details[open] div ul li details[open] summary span ion-icon {
     margin-right: auto;
   }
 
-  .md\:mt-20{
-    margin-top: 5rem;
-  }
-
   .md\:flex{
     display: flex;
   }
@@ -2685,6 +2719,10 @@ details[open] div ul li details[open] summary span ion-icon {
     background-size: contain;
   }
 
+  .md\:bg-\[bottom_right\]{
+    background-position: bottom right;
+  }
+
   .md\:bg-\[center_bottom\]{
     background-position: center bottom;
   }
@@ -2693,8 +2731,8 @@ details[open] div ul li details[open] summary span ion-icon {
     background-position: top right 100%;
   }
 
-  .md\:bg-right-bottom{
-    background-position: right bottom;
+  .md\:bg-center{
+    background-position: center;
   }
 
   .md\:px-0{
@@ -2710,11 +2748,6 @@ details[open] div ul li details[open] summary span ion-icon {
   .md\:py-10{
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
-  }
-
-  .md\:py-20{
-    padding-top: 5rem;
-    padding-bottom: 5rem;
   }
 
   .md\:pr-3{
@@ -2733,6 +2766,11 @@ details[open] div ul li details[open] summary span ion-icon {
   .md\:text-2xl\+{
     font-size: 28px;
     line-height: 34px;
+  }
+
+  .md\:text-4xl\+{
+    font-size: 36px;
+    line-height: 40px;
   }
 
   .md\:text-5xl{
@@ -2775,10 +2813,6 @@ details[open] div ul li details[open] summary span ion-icon {
     margin-right: auto;
   }
 
-  .lg\:mt-24{
-    margin-top: 6rem;
-  }
-
   .lg\:flex{
     display: flex;
   }
@@ -2797,6 +2831,10 @@ details[open] div ul li details[open] summary span ion-icon {
 
   .lg\:h-\[500px\]{
     height: 500px;
+  }
+
+  .lg\:h-14{
+    height: 3.5rem;
   }
 
   .lg\:max-h-\[820px\]{
